@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>Calculadora grafica</title>
+</head>
+
+<body>
+  <main class="main">
+    <div class="data">
+      <form>
+        <label for="x-axis">Ingresa valor del eje X</label>
+        <input type="number" name="x-axis" id="x-axis" required>
+        <label for="y-axis">Ingresa valor del eje Y</label>
+        <input type="number" name="y-axis" id="y-axis" required>
+        <button type="button" id="button-submit">Submit data</button>
+        <button type="button" id="button-clear">Clear values</button>
+      </form>
+    </div>
+  </main>
+  <script src="node_modules/chart.js/dist/chart.js" type="module"></script>
+  <script src="./index.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  display: grid;
+  height: 100vh;
+  width: 100%;
+}
+
+canvas {
+  width: 500px;
+  height: 500px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.data {
+  width: 100%;
+  max-width: 500px;
+  padding: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form label,
+form button {
+  display: block;
+  width: 100%;
+}
