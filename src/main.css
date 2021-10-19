@@ -16,6 +16,12 @@ body {
   width: 100%;
 }
 
+header,
+footer {
+  text-align: center;
+  margin: 20px 0;
+}
+
 canvas {
   width: 500px;
   height: 500px;
@@ -46,4 +52,50 @@ form label,
 form button {
   display: block;
   width: 100%;
+}
+
+input {
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+button {
+  color: white;
+  font-weight: 700;
+  font-size: 1.6rem;
+  height: 50px;
+  margin: 10px 0;
+  border: 0;
+  border-radius: 20px;
+  background-color: transparent;
+  background-color: #3a0ca3;
+  transition: 0.4s opacity;
+}
+
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+button[disabled],
+input[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Modal */
+
+.modal {
+  width: 250px;
+  padding: 15px;
+  position: fixed;
+  top: 20px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  background-color: #4895ef;
+  color: #fff;
+  border-radius: 15px;
 }
